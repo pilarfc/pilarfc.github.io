@@ -2,14 +2,6 @@
   
 @media (max-width: 767px) { 
 
-#acerca-de-mi {
-    height: 100vh;
-  }
-
-#texto-acerca-de-mi {
-    font-size: 1.5em;
-    margin-top:86%;
-}
 
   .rotador > li {
   font-size: 1.5em;
@@ -96,28 +88,12 @@
 @media (min-device-width : 768px) 
 and (max-device-width : 1024px)  { 
 
-    #titulo-acerca-de-mi {
-        font-size: 3em;
-    }
-    
-    #texto-acerca-de-mi {
-    font-size: 3em;
-    margin-top:30%;
-}
-
   .rotador > li {
   font-size: 3em;
   margin-top: 30%;
   }
     
- #acerca-de-mi {
-    height: 70vh;
-  }
-    
-#acerca-de-mi-texto h4 {
-    margin-left: 60%;
-    font-size: 2em;
-}
+
 
 #texto-descripcion {
     font-size: 1.5em;
@@ -240,11 +216,6 @@ and (max-device-width : 1024px)  {
 
 @media (min-width: 320px) and (max-width: 413px) { 
     
-    
-#acerca-de-mi-texto h4 {
-        font-size: 1.5em;
-        margin-left: 48%;
-}    
     
     #texto-descripcion {
     width: 50%;

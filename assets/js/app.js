@@ -1,16 +1,9 @@
-var parallax = function () {
-    $('.parallax').parallax();
-}
-
-
 var cargarPagina = function () {
-    $(".button-collapse").sideNav();
-    parallax(); 
+    $(".button-collapse").sideNav(); 
     sideNavbar();
     navFijo();
     mostrarSkills();
     new WOW().init();
-   // autoType(".type-js",200);
 }
 
 var sideNavbar = function () {
@@ -50,7 +43,6 @@ var mostrarSkills = function () {
         $seccionOtrosSkills.toggle('slow');
     });
 }
-
 
 
 $(document).ready(cargarPagina); 
