@@ -25,101 +25,43 @@ nav {
 
 /*Finaliza header*/
 
-.titulos-spacing {
+/*.titulos-spacing {
     letter-spacing: 4px;
-}
+}*/
 
 /* Inicia seccion acerca de mi */
 
 #acerca-de-mi {
-    background-image: url(../img/ewan-robertson-208022.jpg);
-    width: 100%;
-    background-position: bottom;
+    background-image: url(../img/minimalist7.jpg);
+    background-position: top;
     background-size: cover;
-    background-repeat: no-repeat;
-    position: relative;
-    
-}
-
-#texto-acerca-de-mi {
-    color: white;
-    font-size: 4em;
     width: 100%;
-    text-transform: uppercase;
-    margin-top: 15%;
-    padding-left: 47%;
-    position: absolute;
-    display: inline;
+    position: relative;
 }
 
-
-.rotador {
-  position: absolute;
-  display: inline;
-  list-style: none;
-  text-align: center;
-  padding: 0;
-  margin: 10%;
-  width: auto;
-}
-
-.rotador > li {
-  position: absolute;
-  opacity: 0;
-  margin: 0 auto;
-  margin-top: 10.5%;
-  padding-left: 5%;
-  color: white;
-  font-size: 4em;
-  text-transform: uppercase;
-}
-
-.rotador > li:first-child {
-  -webkit-animation: loop 6s infinite;
-    margin-left: 33%;
-}
-
-.rotador > li:nth-child(2) {
-  -webkit-animation: opsecond 6s infinite;
-}
-
-.rotador > li:last-child {
-  -webkit-animation: oplast 6s infinite;
-}
-
-@-webkit-keyframes loop {
-  0% { opacity: 0; }
-  10% { opacity: 1; }
-  33% { opacity: 1; }
-  44% { opacity: 0; }
-}
-
-@-webkit-keyframes opsecond {
-  33% { opacity: 0; }
-  44% { opacity: 1; }
-  66% { opacity: 1; }
-  77% { opacity: 0; }
-}
-
-@-webkit-keyframes oplast {
-  66% { opacity: 0; }
-  77% { opacity: 1; }
-  100% { opacity: 1; }
-  0% { opacity: 1; }
-  10% { opacity: 0; }
+#seccion-acerca-de-mi {
+  background-image: url(../img/minimalist4.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
 }
 
 
 #boton-descargar-cv {
-  width: 300px;
+  width: 250px;
   height: 60px;
   background-color: transparent;
   color: white;
   font-weight: 600;
   letter-spacing: 3px;
   border-color: white;
-  margin-top: 35%;
+  margin: 5%;
   margin-bottom: 5%;
+}
+
+#main-section {
+
+  margin: 0%;
 }
 /*Finaliza sección acerca de mi */
 
@@ -127,98 +69,66 @@ nav {
 
 
 #foto-acerca-de-mi{
-    width: 330px;
-    height: 300px;
+    width: 400px;
+    height: 380px;
     border-radius: 50%;
+    margin-top: 2%;
 }
 
+
+/*FOTO PERFIL FOCUS*/
+.focus {
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+
+.focus:hover {
+  border: 15px solid white;
+  border-radius: 50%;
+}
 
 /* Finaliza seccion acerca de mi texto */
 
 /*seccion trabaja conmigo */
 
+#row-why{
+  margin: 0%;
+}
+
 #seccion-trabaja-conmigo {
     position: relative;
-    height: 35vh;
-    background-color: #313030;
-    background-position: cover;
-    color: white;
+    color: black;
     width: 100%;
     margin: 0;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../img/minimalist2.jpg);
+
 }
 
-#trabaja-conmigo-tabla {
-    margin-left: 19%;
-}
 
-#lupa {
-    margin-left: 10%;
-}
-
-#engrane {
-    margin-left: 10%;
-}
-
-/* Finaliza seccion trabaja conmigo */
 
 #habilidades {
-
-    background-color: white;
-    height: 65vh;
     position: relative;
 }
 
 #titulo-hab {
-    position: absolute;
     font-family: 'Lato', sans-serif;
 }
 
-#grafica1 {
-  margin: 20px;
-  margin-top: 5%;
-  margin-left: 63%;
+#containerHtml, #containerCss, #containerJavascript {
   width: 200px;
   height: 200px;
-  position: absolute;
+  position: relative;
 }
 
-#hab1 {
-    position: absolute;
-    margin-top: 21.5%;
+#hab1, #hab2, #hab3 {
     font-size: 2em;
 }
 
-#grafica2 {
-  margin: 20px;
-  margin-top: 8%;
-  margin-left: 22%;
-  width: 200px;
-  height: 200px;
-  position: absolute;
-}
-
-#hab2 {
-    position: absolute;
-    font-size: 2em;
-    margin-top: 24%;
-    margin-right: 50%;
-}
-
-#grafica3 {
-  margin: 20px;
-  margin-top: 6.5%;
-  margin-left: 43%;
-  width: 200px;
-  height: 200px;
-  position: absolute;
-}
-
-#hab3 {
-    position: absolute;
-    font-size: 2em;
-    margin-top: 23%;
-    margin-left: 38%;
-}
 
 .medida-logos-skills {
     width:  100px;
@@ -268,27 +178,20 @@ nav {
 
 
 /*SECCION CONTACTO */
-#typing{
-    background-color: black;
-    width: 100%;
-}
 
-#div-contacto {
-    display: inline;
-}
-
-.typed-cursor {
-    background-color: black;
-    color: white;
-     font-weight: 800;
-    font-size: 2.92rem;
-}
 
 #div-contacto{
-    background-color: black;
+    display: inline;
+    font-size: 2.92rem;
     color: white;
     font-weight: 800;
-} 
+    margin-top: 3%;
+}
+
+#typed-strings {
+  display: inline;
+}
+
 
 /*FINALIZA SECCION CONTACTO*/
 

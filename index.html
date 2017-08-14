@@ -1,4 +1,4 @@
-    <!DOCTYPE html>
+   <!DOCTYPE html>
     <html lang="en">
     <head>
         <meta charset="UTF-8">
@@ -49,63 +49,77 @@
         </header>
 
 
-
         <!--INICIA SECCION ACERCA DE MI-->
 
         <section id="acerca-de-mi">
-          <div class="row">
-             <p class="col s2 m2 left" id="texto-acerca-de-mi">Soy</p>
-          </div>
-             <div class="row">
-                  <ul class="rotador col s12 m12 l12 center">
-                   <li class="center"><strong>Pilar.</strong></li>
-                   <li><strong>Desarrolladora Front-End Jr.</strong></li>
-                   <li><strong>Lic. en Negocios Internacionales.</strong></li>
-                  </ul>
-              </div>
+          <div class="row" id="main-section">
+            <div class="col s12 m12 l12  center">
+                <img src="assets/img/PilarFC.JPG" alt="Foto Perfil" id="foto-acerca-de-mi" class="focus pic">
+            </div>
 
-              <div class="row">
-                 <div class="col s12 m12 center">
-                  <a href="assets/pdf/CV-2017.pdf" download><button class="waves-effect waves-light" id="boton-descargar-cv">DESCARGA MI CV</button></a>
-                 </div>
+            <div id="div-contacto" class="col s12 m12 l12 center">
+              <div>Soy <div id="typed-strings"></div>
               </div>
-        </section>
+            </div>
+
+            <div class="row" id="row-acerca-de-mi">
+              <div class="col s12 m12 center">
+               <a href="assets/pdf/CV-2017.pdf" download><button class="waves-effect waves-light" id="boton-descargar-cv">DESCARGA MI CV</button></a>
+              </div>
+            </div>
+
+          </div>
+
+
+
+        </div>
+
+      </section>
 
         <!--FINALIZA SECCION ACERCA DE MI-->
 
-         <section id="acerca-de-mi-texto">
-          <div class="row">
-           <h4 class="titulos-spacing col s12 m12 l12 center">Acerca de mi</h4>
-          </div>
-              <div class="row">
-                <div class="col s5 m5 l5 offset-s1 offset-m1 offset-l1">
-                    <img src="assets/img/PilarFC.JPG" alt="Foto Perfil" id="foto-acerca-de-mi">
-                </div> 
-                
-                <div class="col s6 m6 l6 center" id="div1-acerca-de-mi">
-                
-                </div>
+         <section id="seccion-acerca-de-mi">
+          <div class="row" id="row-why">
+            <div class="col s12 m12 l12 center">
+              <div class="col s4 m4 l6"></div>
+              <div class="col s12 m7 l5 center offset-m1 offset-l1">
+                <h4 class="titulos-spacing">Acerca de mí</h4>
+                <p>Desde que tengo uso de razón, he querido dejar una pequeña huella en este mundo, sin embargo
+                  no había encontrado el modo de lograrlo. <br>
+                  Con el código, esa idea se ha ido incrementando y materializando cada vez más. Considero este conocimiento
+                  un verdadero <b>arte</b>, el cual te permite crear desde la nada hasta llegar a un todo intangible, pero con gran impacto. <br>
+                   <br>Haber tenido la oportunidad de estudiar dos campos educacionales distintos, me ha permitido descubrir otros panoramas
+                   en los cuales jamás había pensado. Estoy entusiasmada por conocer que depara el futuro y cómo el mundo tech se convertirá en mi hogar.
+                </p>
               </div>
+            </div>
+          </div>
          </section>
 
          <!--Tabla ¿por qué trabajar conmigo?-->
          <section id="seccion-trabaja-conmigo">
           <div class="row">
-              <h5 id="titulo-trabajo" class="col s12 m12 center">¿Por qué trabajar conmigo?</h5>
+              <h5 id="titulo-trabajo" class="col s12 m12 l12 center">¿Por qué trabajar conmigo?</h5>
           </div>
            <div id="trabaja-conmigo-tabla">
-            <div class="row">
-              <div class="col s4 m4 l4">
+            <div class="row tabla-elementos">
+              <div class="col s4 m4 l4 center">
                 <i  id="lupa" class="large material-icons">search</i>
-                <p>Quiero aprender siempre</p>
+                <div class="row">
+                  <p class="col s12 m6 l7 offset-m4 offset-l3 center">Soy una persona curiosa, y si no sé algo, prefiero investigar o preguntar.</p>
+                </div>
               </div>
-              <div class="col s4 m4 l4">
+              <div class="col s4 m4 l4 center">
                <i id="code" class="large material-icons">code</i>
-               <p id="code-text">Amo el código</p>
+               <div class="row">
+                 <p class="col m6 offset-m3 center" id="code-text">El código se ha convertido en mi pasión.</p>
+               </div>
              </div>
-             <div class="col s4 m4 l4">
+             <div class="col s4 m2 l2  offset-m1 offset-l1">
                <i id="engrane" class="large material-icons animated infinite rotateIn">settings</i>
-               <p>Me gustan los cambios</p>
+               <div class="row">
+                 <p class="col l7">Me gustan los cambios.</p>
+               </div>
                <p></p>
              </div>
             </div>
@@ -118,28 +132,38 @@
 
         <section id="habilidades">
         <div class="row">
-         <h4 id="titulo-hab" class="col s12 m12 l12 center titulos-spacing">Habilidades</h4>
+         <h4 id="titulo-hab" class="col s12 m12 l12 center demo">Habilidades</h4>
         </div>
 
+           <div class="row">
+             <div class="col s12 m12 l12" id="grafica-habilidades">
 
-             <div id="grafica2"></div>
-             <div class="row">
-                 <p id="hab2" class="col s12 m3 l3 offset-m2 offset-l2 center">HTML5</p>
+              <div class="row">
+               <div class="col s8 m4 l4 offset-s2 center">
+                 <div id="containerHtml" class="grafica-individual"></div>
+                 <div class="row">
+                     <p id="hab2" class="col s12 m6 l9 offset-m2 offset-l2 center texto-grafica">HTML5</p>
+                 </div>
+               </div>
+
+               <div class="col s8 m4 l4 offset-s2 center">
+                 <div id="containerCss" class="grafica-individual"></div>
+                 <div class="row">
+                     <p id="hab3" class="col s12 m6 l9 offset-m2 offset-l2 center texto-grafica">CSS3</p>
+                 </div>
+               </div>
+
+             <div class="col s8 m4 l4  offset-s2 center">
+               <div id="containerJavascript" class="grafica-individual"></div>
+               <div class="row">
+                   <p id="hab1" class="col s12 m6 l9 offset-m2 offset-l2 center texto-grafica">Javascript</p>
+              </div>
              </div>
 
-
-             <div id="grafica3"></div>
-             <div class="row">
-                 <p id="hab3" class="col s12 m3  offset-m4 center">CSS3</p>
-
-
-
-             </div>
-
-             <div id="grafica1"></div>
-             <div class="row">
-                 <p id="hab1" class="col s12 m3 offset-m7 center">Javascript</p>
+              </div>
             </div>
+           </div>
+
         </section>
 
         <div class="row">
@@ -179,13 +203,13 @@
 
         <section id="seccion-portafolio">
             <div class="row">
-             <h4 class="col s12 m12 center titulos-spacing">Portafolio</h4>
+             <h4 class="col s12 m12 center titulos-spacing demo">Portafolio</h4>
              <hr>
             </div>
 
             <div class="row wow bounceInUp">
-                <div class="col s12 m4 l4">
-                  <div class="card ">
+                <div class="col s12 m12 l4">
+                  <div class="card hoverable">
                     <div class="card-image waves-effect waves-block waves-light">
                       <img class="activator" src="assets/img/Paquecomas.png">
                     </div>
@@ -207,23 +231,23 @@
                   </div>
                 </div>
 
-                <div class="col s12 m4 l4">
+                <div class="col s12 m12 l4">
                   <div class="row">
-                    <div class="card">
+                    <div class="card hoverable">
                       <div class="card-image waves-effect waves-block waves-light">
                         <img class="activator" src="assets/img/yape-bcp.jpg">
                       </div>
                       <div class="card-reveal">
                         <span class="card-title grey-text text-darken-4">Yape<i class="material-icons right">close</i></span>
                         <p>Aplicación para realizar pagos entre personas y a comercios de manera fácil, rápida y confiable.
-                        Se realizó la maquetación, validación de datos y llamada a API.</p>
+                        Se realizó la maquetación, validación de datos y llamada a API. Uso de HTML5, SCSS, Gulp, Node.js y Javascript.</p>
                         <br>
                         <div class="row">
                           <div class="col s6 m6 l6 center">
                             <a href="https://pilarfc.github.io/yape/" class="links-proyectos"><i  class="fa fa-desktop fa-3x" aria-hidden="true"></i></a>
                           </div>
                           <div class="col s6 m6 l6 center">
-                            <a href="https://github.com/pilarfc/yape" class="links-proyectos"><i  class="fa fa-code fa-3x" aria-hidden="true"></i></a>
+                            <a href="https://github.com/pilarfc/YAPE-Oficial" class="links-proyectos"><i  class="fa fa-code fa-3x" aria-hidden="true"></i></a>
                           </div>
                         </div>
                       </div>
@@ -231,7 +255,7 @@
 
 
 
-                      <div class="card ">
+                      <div class="card hoverable">
                         <div class="card-image waves-effect waves-block waves-light">
                           <img class="activator" src="assets/img/kane-theme.png">
                         </div>
@@ -255,40 +279,68 @@
                 </div>
 
                 <div class="col s12 m4 l4 center">
+
                   <div class="row">
-                    <div class="card">
+                    <div class="card hoverable">
                       <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="assets/img/Labcar.png">
+                        <img class="activator" src="assets/img/google-design.jpg">
                       </div>
                       <div class="card-reveal">
-                        <span class="card-title grey-text text-darken-4">Labcar<i class="material-icons right">close</i></span>
-                        <p>Aplicación de movilidad, basándonos principalmente en maquetación y uso de frameworks.</p>
+                        <span class="card-title grey-text text-darken-4">Google Design<i class="material-icons right">close</i></span>
+                        <p>Esfuerzo cooperativo por parte diseñadores, escritores y desarrolladores de Google. En esta página se pueden encontrar
+                        artículos que retratan el trabajo de diseño de la empresa y la innovación que se ha dado en su sector.
+                      Este proyecto fue realizado con HTML5 y SASS.</p>
                         <br>
                         <div class="row">
                           <div class="col s6 m6 l6 center">
-                            <a href="https://pilarfc.github.io/Lab-ar/" class="links-proyectos"><i  class="fa fa-desktop fa-3x" aria-hidden="true"></i></a>
+                            <a href="https://pilarfc.github.io/Google-Design/" class="links-proyectos"><i  class="fa fa-desktop fa-3x" aria-hidden="true"></i></a>
                           </div>
                           <div class="col s6 m6 l6 center">
-                            <a href="https://github.com/pilarfc/Lab-ar" class="links-proyectos"><i  class="fa fa-code fa-3x" aria-hidden="true"></i></a>
+                            <a href="https://github.com/pilarfc/Google-Design" class="links-proyectos"><i  class="fa fa-code fa-3x" aria-hidden="true"></i></a>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+
+                  <div class="row">
+                    <div class="card hoverable">
+                      <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator" src="assets/img/lyft.png">
+                      </div>
+                      <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Lyft - Colaborativo<i class="material-icons right">close</i></span>
+                        <p>Aplicación de movilidad, la cuál es un servicio de transporte para pasajeros en el que usuarios
+                        particulares utilizan sus coches para ganarse dinero extra. <br>Esta página se realizón con HTML5, CSS3, y Github Colaborativo,
+                      así como la utilización de flexbox.</p>
+                        <br>
+                        <div class="row">
+                          <div class="col s6 m6 l6 center">
+                            <a href="https://pilarfc.github.io/lyft-colaborativo/" class="links-proyectos"><i  class="fa fa-desktop fa-3x" aria-hidden="true"></i></a>
+                          </div>
+                          <div class="col s6 m6 l6 center">
+                            <a href="https://github.com/pilarfc/lyft-colaborativo" class="links-proyectos"><i  class="fa fa-code fa-3x" aria-hidden="true"></i></a>
                           </div>
                         </div>
                       </div>
                     </div>
                 </div>
+
             </div>
           </div>
 
 
           <div class="row">
-            <h4 class="col s12 m12 center titulos-spacing">Hackathones Ganados</h4>
+            <h4 class="col s12 m12 l12 center demo">Hackathones</h4>
             <hr>
           </div>
 
           <div class="row wow bounceInUp">
 
-            <div class="col s6 m3 l3 offset-m3 offset-l3">
+            <div class="col s6 m6 l3  offset-l3">
               <div class="row">
-                <div class="card">
+                <div class="card hoverable">
                   <div class="card-image waves-effect waves-block waves-light">
                     <img class="activator tamano-hackathon" src="assets/img/passeante.png">
                   </div>
@@ -308,9 +360,9 @@
             </div>
 
 
-            <div class="col s6 m3 l3">
+            <div class="col s6 m6 l3">
               <div class="row">
-                <div class="card">
+                <div class="card hoverable">
                   <div class="card-image waves-effect waves-block waves-light">
                     <img class="activator tamano-hackathon" src="assets/img/scoolbreaker.png">
                   </div>
@@ -334,16 +386,23 @@
         </section>
 
         <!-- FINALIZA SECCION PORTAFOLIO -->
-        
-        <section id="typing">
-            <div class="col s12 m12 l12 center">
-                    <h3 id="div-contacto"></h3>
+
+        <!-- <section id="typing">
+          <div id="div-contacto" class="col s12 m12 l12 center">
+            <div>Soy <div id="typed-strings"></div>
             </div>
-        </section>
+          </div>
+        </section> -->
 
         <!--INICIA SECCION CONTACTO-->
-         <section id="contacto">
-          </section>
+        <section id="contacto">
+          <div class="row">
+            <h4 class="col s12 m12 l12 center">Si quieres saber un poco más de mi y que trabajemos juntos</h4>
+            <div class="row">
+              <div class="demo col s12 m12 l12 center">Contáctame</div>
+            </div>
+          </div>
+         </section>
         <!--FINALIZA SECCION CONTACTO-->
 
         <section class="final" id="footer">
@@ -370,7 +429,7 @@
         </section>
 
 
-        
+
         <script type="text/javascript" src="assets/js/jquery-3.2.1.min.js"></script>
         <script type="text/javascript" src="assets/js/materialize.min.js"></script>
         <script type="text/javascript" src="assets/js/wow.min.js"></script>
@@ -379,6 +438,6 @@
         <script type="text/javascript" src="assets/js/app2.js"></script>
         <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/progressbar.js/1.0.1/progressbar.js"></script>
         <script type="text/javascript" src="assets/js/graficas.js"></script>
-        
+        <script type="text/javascript" src="assets/js/media-queries.js"></script>
     </body>
     </html>

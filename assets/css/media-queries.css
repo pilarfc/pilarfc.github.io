@@ -1,229 +1,67 @@
-/*Móviles en horizontal o tablets en vertical*/
-  
-@media (max-width: 767px) { 
+/*Celulares - Col S*/
+@media only screen and (max-width: 600px) {
+   #foto-acerca-de-mi {
+     width: 300px;
+     height: 300px;
+   }
+
+   .demo{
+      width: 100%;
+      font-size:20px;
+      height: 142px;
+      line-height: 142px;
+   }
+   .demo span:nth-child(2n+1){
+      background: black;
+      font-size:30px;
+      color:#fff;
+      padding:0 10px;
+   }
 
 
-  .rotador > li {
-  font-size: 1.5em;
-  margin-top: 80%;
-  padding-left: 11%;
+}
+
+
+
+/*//Tablets -Col M*/
+@media only screen and (min-width: 602px and max-width: 992px) {
+
+  .grafica-individual {
+    margin-left: 5%;
   }
 
-    
-    #habilidades {
-        height: 170vh;
-    }
-    
-    #titulo-hab {
-      margin-top: 12%; 
-    }
- 
-    #grafica1 {
-        margin-left: 25%;
-        margin-top: 185%;
-    }
-    
-    #hab1 {
-        margin-top: 245%;
-    }
-    
-    #grafica2 {
-        margin-left: 25%;
-        margin-top: 30%;
-    }
-    
-    #hab2 {
-        margin-top: 85%;
-    }
-    
-    #grafica3 {
-        margin-left: 25%;
-        margin-top: 100%;
-    }
-    
-    #hab3 {
-        margin-top: 160%;
-        margin-left: 0%;
-        
-        
-        
-    }#acerca-de-mi-texto h4 {
-        font-size: 1em;
-        margin-left: 60%;
-}
-    
-    #texto-descripcion {
-    width: 50%;
-    margin-left: 47%;
-    margin-top: 10%;
-    text-align: center;
-    font-size: 0.9em;
-}
-    
-    #foto-perfil {
-    display: none;
-}
-
-#trabaja-conmigo-tabla {
-    margin-left: 0%;
-}
-    
-#lupa {
-    margin-left: 0%;    
-}
-    
-    #engrane {
-    margin-left: 0%;
-}
-    
-    #boton-contacto{
-    margin-top: 125%;
-    width: 50%;
-}
-    
-}
-
-/*Querie para iPad*/
-
-@media (min-device-width : 768px) 
-and (max-device-width : 1024px)  { 
-
-  .rotador > li {
-  font-size: 3em;
-  margin-top: 30%;
+  .demo{
+     width: 100%;
+     font-size:40px;
+     height: 142px;
+     line-height: 142px;
   }
-    
 
-
-#texto-descripcion {
-    font-size: 1.5em;
-    margin-left: 47%;
-    margin-top: 5%;
-}
-
-#photography img {
-    width: 25%;
-    height: 615px;
-}
-
-#photography2 {
-    margin-left: 25%;
-}
-
-#photography2 img {
-    width: 25%;
-    height: 615px;
-}
-
-#foto-perfil {
-    margin-left: 65%;
-    margin-top: 60%;
-}
-
-#foto-perfil img {
-    width: 50%;
-    height: 50%;
-    border-radius: 50%;
- } 
-
-#trabaja-conmigo-tabla {
-    margin-left: 14%;
-    margin-top: 10%;
-}
-
-#titulo-trabajo {
-   margin-top: 5%;
-   margin-left: 0%;
-   font-size: 2em;
-}
-    
-    
-#lupa {
-    margin-left: 10%;    
-}
-
-#code {
-    margin-left: 20%;   
-}    
-
-#code-text{
-    margin-left: 20%;    
-}
-    
-#engrane {
-    margin-left: 10%;
-}    
-    
-    
-#habilidades {
-    height: 50vh;
-}
-
-    
- #titulo-hab {
-    font-size: 4em;
-}
-    
- #grafica1 {
-  margin: 20px;
-  margin-top: 14%;
-  margin-left: 70%;
-  width: 200px;
-  height: 200px;
-}
-
-#hab1 {
-    position: absolute;
-    margin-top: 46%;
-    margin-left: 72%;
-    font-size: 2em;
-}
-
-#grafica2 {
-  margin: 20px;
-  margin-top: 20%;
-  margin-left: 8%;
-}
-
-#hab2 {
-    font-size: 2em;
-    margin-top: 51%;
-    margin-left: 8%;
-}
-
-#grafica3 {
-  margin: 20px;
-  margin-top: 17%;
-  margin-left: 39%;
-}
-
-#hab3 {
-    font-size: 2em;
-    margin-top: 48.5%;
-    margin-left: 38%;
-}
-    
-    
-#boton-contacto{
-    margin-top: 63%;
-    margin-left: 28%;
-    width: 50%;
-}
-    
-}
-/*Finaliza querie para iPad*/
-
-
-@media (min-width: 320px) and (max-width: 413px) { 
-    
-    
-    #texto-descripcion {
-    width: 50%;
-    margin-left: 46%;
-    margin-top: 13%;
-    text-align: center;
-    font-size: 0.9em;
+.demo span:nth-child(2n+1){
+   background: black;
+   font-size:50px;
+   color:#fff;
+   padding:0 10px;
  }
 }
 
+/*//Laptop -Col L*/
+@media only screen and (min-width: 993px) {
+    .grafica-individual {
+      margin-left: 30%;
+    }
 
+    .demo{
+       width: 100%;
+       font-size:40px;
+       height: 142px;
+       line-height: 142px;
+    }
+
+    .demo span:nth-child(2n+1){
+       background: black;
+       font-size:50px;
+       color:#fff;
+       padding:0 10px;
+    }
+}
