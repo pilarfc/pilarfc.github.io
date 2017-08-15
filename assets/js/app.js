@@ -3,7 +3,6 @@ var cargarPagina = function () {
     sideNavbar();
     navFijo();
     mostrarSkills();
-    masSkills();
     new WOW().init();
 }
 
